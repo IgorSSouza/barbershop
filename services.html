@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <title>Arte & Beleza</title>
 </head>
 <body>
-    <header>
+    <div class="container-home">
         <nav>
             <img src="./images/LogoEdit.jpg">
             <p class="center">Barbearia Arte & Beleza</p>
@@ -30,41 +30,41 @@
                 <li><a href="">Contato</a></li>
             </ul>
         </nav>
-    </header>
-    <div class="container-home">
-        <div class="banner">
-            <div class="slides">
-                <div id="back" class="btn">
-                    <a href="javascript:void(0);" class="link-full"></a>
-                    <i class="fas fa-chevron-left"></i>
-                </div>
-                <div class="slide0">
-                    <!-- <img src="./images/slide0.jpg" > -->
-                </div>
-                <div id="next" class="btn">
-                    <a href="javascript:void(0);" class="link-full"></a>
-                    <i class="fas fa-chevron-right"></i>
-                </div>
-            </div>
-            
-            <div class="text-container" data-tilt="">
-                
-                <h1>Sobre a Barbearia</h1>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                It has roots in a piece of classical Latin literature from 45 BC, 
-                making it over 2000 years old. Richard McClintock, a Latin professor 
-                at Hampden-Sydney College in Virginia, looked up one of the more obscure 
-                Latin words, consectetur, from a Lorem Ipsum passage, and going through 
-                the cites of the word in classical literature, discovered the undoubtable 
-                source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus 
-                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
-                This book is a treatise on the theory of ethics, very popular during the Renaissance. 
-                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line 
-                in section 1.10.32.</p>
-                
-            </div>
+    <section>
+        <div class="services-container" data-tilt="">
+
+            <img src="./images/hair.PNG" >
+            <h1>CABELO</h1>
+            <p>Lorem ipsum, dolor sit amet!
+            Lorem ipsum, dolor sit amet!
+            Lorem ipsum, dolor sit amet!
+            </p>
+            <h3>LEIA MAIS</h3>
         </div>
-    </div>
+
+        <div class="services-container" data-tilt="">
+            <img src="./images/hair.PNG" >
+            <h1>CABELO & BARBA</h1>
+            <p>Lorem ipsum, dolor sit amet!
+            Lorem ipsum, dolor sit amet!
+            Lorem ipsum, dolor sit amet!
+            </p>
+            <h3>LEIA MAIS</h3>
+        </div>
+
+        <div class="services-container" data-tilt="">
+            <img src="./images/hair.PNG" >
+            <h1>BARBA</h1>
+            <p>Lorem ipsum, dolor sit amet!
+            Lorem ipsum, dolor sit amet!
+            Lorem ipsum, dolor sit amet!
+            </p>
+            <h3>LEIA MAIS</h3>
+        </div>
+
+
+    </section>  
+            </div>
     
     <footer>
         <div class="footer-content">
@@ -82,10 +82,10 @@
     </footer>
     <script src="https://kit.fontawesome.com/bad7f7f5d4.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js">
-        // VanillaTilt.init(document.getElementsByClassName(".text-container"),{
-        //     max: 25,
-        //     speed: 400
-        // });
+        VanillaTilt.init(document.getElementsByClassName(".text-container"),{
+            max: 25,
+            speed: 400
+        });
         
     </script>
 </body>
